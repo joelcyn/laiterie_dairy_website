@@ -1,0 +1,383 @@
+body
+{
+  background-image: url("00.png");
+  padding: 50px;
+  text-align : center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+img{
+}
+
+/*Partie #1*/
+
+/*Cette classe permet d'aligner les éléments horizontalement*/
+.section_01 {
+  position: absolute;
+  top: 40px;
+}
+
+/*Logo*/
+#logo {
+  position: absolute;
+  left: 285px;
+}
+
+/*Menu #1 - Laiterie*/
+#menu_01_01 {
+  position: absolute;
+  left: 745px;
+}
+
+/*Menu #2 - Produits*/
+#menu_01_02 {
+  position: absolute;
+  left: 892px;
+}
+
+/*Menu #3 - Volet Commercial*/
+#menu_01_03 {
+  position: absolute;
+  left: 1025px;
+}
+
+/*Menu #4 - Recettes*/
+#menu_01_04 {
+  position: absolute;
+  left: 1290px;
+}
+
+/*Menu #5 - Contact*/
+#menu_01_05 {
+  position: absolute;
+  left: 1420px;
+}
+
+/*Partie #2*/
+/*Titre*/
+#titre_02 {
+  position: absolute;
+  top: 260px;
+  left: 510px;
+}
+
+/*Carte*/
+#carte {
+  position: absolute;
+  top: 460px;
+  left: 0px;
+}
+
+/*Icone de Fruit*/
+#icone_fruit {
+  position: absolute;
+  top: 627px;
+  left: 470px;
+}
+
+
+/*Icone de Vache*/
+#icone_vache {
+  position: absolute;
+  top: 720px;
+  left: 830px;
+}
+
+/*Permet d'élargir les icones au hover*/
+.enlarge img:hover {
+  width: 5%;
+  height: auto;
+}
+
+/*Partie #3*/
+/*Texte*/
+#cercle_03 {
+  position: absolute;
+  top: 1180px;
+  left: 195px;
+}
+
+/*Bouton*/
+#bouton_03 {
+  position: absolute;
+  top: 1680px;
+  left: 410px;
+}
+
+/*Partie #4*/
+/*Titre*/
+#titre_04 {
+  position: absolute;
+  top: 2120px;
+  left: 785px;
+}
+
+/*Partie #5*/
+/*Refrigerateur*/
+#refrigerateur_05 {
+  position: absolute;
+  top: 2330px;
+  left: 210px;
+}
+
+/*Beurre*/
+#beurre_05 {
+  position: absolute;
+  top: 2660px;
+  left: 477px;
+}
+
+/*Brique*/
+#brique_05 {
+  position: absolute;
+  top: 2714px;
+  left: 720px;
+}
+
+/*Creme Glacee*/
+#creme_05 {
+  position: absolute;
+  top: 2391px;
+  left: 455px;
+}
+
+/*Frappe aux fruits*/
+#frappe_05 {
+  position: absolute;
+  top: 2800px;
+  left: 309px;
+}
+
+/*Glace*/
+#glace_05 {
+  position: absolute;
+  top: 2722px;
+  left: 360px;
+}
+
+/*Permet de cacher ce qui n'est pas selectionne*/
+.section {
+        display: none;
+    }
+
+/*Description du Beurre*/
+#description_beurre_05 {
+  position: absolute;
+  top: 2385px;
+  left: 1165px;
+}
+
+/*Description de la Brique*/
+#description_brique_05 {
+  position: absolute;
+  top: 2385px;
+  left: 1165px;
+}
+
+/*Description de la Creme Glacee*/
+#description_creme_05 {
+  position: absolute;
+  top: 2385px;
+  left: 1165px;
+}
+
+/*Description du Frappe aux Fruits*/
+#description_frappe_05 {
+  position: absolute;
+  top: 2385px;
+  left: 1165px;
+}
+
+/*Description de la Glace*/
+#description_glace_05 {
+  position: absolute;
+  top: 2385px;
+  left: 1165px;
+}
+
+/*Bouton*/
+#bouton_05 {
+  position: absolute;
+  top: 2860px;
+  left: 1175px;
+}
+
+/*Partie #6*/
+/*Titre*/
+#titre_06 {
+  position: absolute;
+  top: 3280px;
+  left: 715px;
+}
+
+/*Vache*/
+#vache_06 {
+  position: absolute;
+  top: 3393px;
+  left: 205px;
+}
+
+/*Usine*/
+#usine_06 {
+  position: absolute;
+  top: 3393px;
+  left: 605px;
+}
+
+/*Camion*/
+#camion_06 {
+  position: absolute;
+  top: 3393px;
+  left: 1005px;
+}
+
+/*Refrigerateur*/
+#refrigerateur_06 {
+  position: absolute;
+  top: 3393px;
+  left: 1405px;
+}
+
+/*Description de la Vache*/
+#description_vache_06 {
+  position: absolute;
+  top: 3665px;
+  left: 205px;
+}
+
+/*Description de l'Usine*/
+#description_usine_06 {
+  position: absolute;
+  top: 3665px;
+  left: 205px;
+}
+
+/*Description du Camion*/
+#description_camion_06 {
+  position: absolute;
+  top: 3665px;
+  left: 205px;
+}
+
+/*Description du Refrigerateur*/
+#description_refrigerateur_06 {
+  position: absolute;
+  top: 3665px;
+  left: 205px;
+}
+
+/*Bouton*/
+#bouton_06 {
+  position: absolute;
+  top: 4012px;
+  left: 835px;
+}
+
+/*Partie #7*/
+/*Titre*/
+#titre_07 {
+  position: absolute;
+  top: 4252px;
+  left: 496px;
+}
+
+.filtrage {
+        display: none;
+    }
+
+/*Bouton Filtre*/
+#filtre_07 {
+  position: absolute;
+  top: 4252px;
+  left: 1083px;
+  z-index: 1;
+}
+
+/*Bouton Filtre Pain*/
+#filtre_pain_07 {
+  position: absolute;
+  top: 4291px;
+  left: 1083px;
+  z-index: 1;
+}
+
+/*Bouton Filtre Dessert*/
+#filtre_dessert_07 {
+  position: absolute;
+  top: 4330px;
+  left: 1083px;
+  z-index: 1;
+}
+
+/*Bouton Filtre Cafe*/
+#filtre_cafe_07 {
+  position: absolute;
+  top: 4367px;
+  left: 1083px;
+  z-index: 1;
+}
+
+/*Bouton Filtre Fromage*/
+#filtre_fromage_07 {
+  position: absolute;
+  top: 4403px;
+  left: 1083px;
+  z-index: 1;
+}
+/*Partie #8*/
+
+/*Recette #1*/
+#recette_01_08 {
+  position: absolute;
+  top: 4408px;
+  left: 500px;
+}
+
+/*Recette #2*/
+#recette_02_08 {
+  position: absolute;
+  top: 4408px;
+  left: 1063px;
+}
+
+/*Recette #3*/
+#recette_03_08 {
+  position: absolute;
+  top: 4810px;
+  left: 500px;
+}
+
+/*Recette #4*/
+#recette_04_08 {
+  position: absolute;
+  top: 4810px;
+  left: 819px;
+}
+
+/*Recette #5*/
+#recette_05_08 {
+  position: absolute;
+  top: 4810px;
+  left: 1140px;
+}
+/*Partie #9*/
+/*Copyrights*/
+#copyrights_09 {
+  position: absolute;
+  top: 5161px;
+  left: 500px;
+}
+
+/*Bouton Truc*/
+#truc_09 {
+  position: absolute;
+  top: 5325px;
+  left: 1275px;
+}
+
+/*Bouton Emplois*/
+#emplois_09 {
+  position: absolute;
+  top: 5325px;
+  left: 1364px;
+}
